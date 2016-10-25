@@ -138,6 +138,8 @@ update config msg =
   case msg of
     MouseClick id -> config.onclick id
 
+
+{-| Expects a sorted (greatest-> least) list of areas and a config.-}
 treemap : Areas -> TreemapConfig -> List (Html Msg)
 treemap areas config =
   let
