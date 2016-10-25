@@ -12,3 +12,5 @@ make with:
 
 elm make ./src/Main.elm --output index.html
 
+
+Is responsive to window resizes, so play with that!
